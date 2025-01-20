@@ -44,6 +44,23 @@
         const fileList = document.getElementById(listId);
         fileList.innerHTML = '';  
 
+        // Extract numbers and letters for sorting
+        files.sort((a, b) => {
+          const parseTitle = (title) => {
+            const match = title.match(/^Title (\d+)([A-Z]?)_/);
+            if (!match) return [Infinity, '']; // Handle non-matching filenames (e.g., unexpected files)
+            const [, num, letter] = match;
+            return [parseInt(num, 10), letter];
+          };
+
+          const [numA, letterA] = parseTitle(a.name);
+          const [numB, letterB] = parseTitle(b.name);
+
+          if (numA === numB) return letterA.localeCompare(letterB); // Compare letters if numbers are the same
+          return numA - numB; // Compare numbers
+        });
+
+        // Create the list
         files.forEach(file => {
           const listItem = document.createElement('li');
           const fileLink = document.createElement('a');
@@ -56,6 +73,7 @@
           fileList.appendChild(listItem);
         });
       }
+
 
       // Fetch files for each folder and populate the lists
       fetchFileList('titles', 'titles');
