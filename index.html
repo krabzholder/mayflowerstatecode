@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayflower State Code</title>
+    
+    <!-- Open Graph meta tags -->
+    <meta property="og:title" content="Mayflower State Code"/>
+    <meta property="og:description" content="View M.S.C. Online"/>
+</head>
+<body>
+    <center><img width="120" src="https/i.imgur.com/2V3Hvqs.jpeg">
+    <h1>State of Mayflower</h1>
+    <h3>Mayflower State Code</h3></center>
+    <p>Find the M.S.C. Titles in HTML form here</p>
+
+    <h1>Mayflower State Code Titles</h1>
+    <ul id="titles"></ul>
+
+    <!--<h1>Volume 2</h1>
+    <ul id="volume2"></ul>
+
+    <h1>Other/Miscellaneous</h1>
+    <ul id="other"></ul>-->
+
+    <script>
+      const repoOwner = 'krabzholder';  
+      const repoName = 'mayflowerstatecode';
+
+      async function fetchFileList(folderPath, listId) {
+        const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${folderPath}`;
+        try {
+          const response = await fetch(apiUrl);
+          if (!response.ok) throw new Error(`Failed to fetch file list from ${folderPath}`);
+          const files = await response.json();
+          updateFileList(files, listId, folderPath);
+        } catch (error) {
+          console.error(error);
+        }
+      }
+
+      function updateFileList(files, listId, folderPath) {
+        const fileList = document.getElementById(listId);
+        fileList.innerHTML = '';  
+
+        files.forEach(file => {
+          const listItem = document.createElement('li');
+          const fileLink = document.createElement('a');
+          
+          // Construct the URL to point to the file's path within the GitHub Pages site
+          fileLink.href = `https://${repoOwner}.github.io/${repoName}/${folderPath}/${encodeURIComponent(file.name)}`;
+          fileLink.textContent = file.name;
+          fileLink.target = '_blank'; 
+          listItem.appendChild(fileLink);
+          fileList.appendChild(listItem);
+        });
+      }
+
+      // Fetch files for each folder and populate the lists
+      fetchFileList('titles', 'titles');
+      //fetchFileList('volume2', 'volume2');
+      //fetchFileList('other', 'other');
+    </script>
+</body>
+</html>
