@@ -1,86 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mayflower State Code</title>
-    
-    <!-- Open Graph meta tags -->
-    <meta property="og:title" content="Mayflower State Code"/>
-    <meta property="og:description" content="View M.S.C. Online"/>
-    <meta property="og:image" content="https://i.imgur.com/smgiw56.png"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mayflower State Code</title>
+  
+  <!-- Open Graph meta tags -->
+  <meta property="og:title" content="Mayflower State Code"/>
+  <meta property="og:description" content="View M.S.C. Online"/>
+  <meta property="og:image" content="https://i.imgur.com/smgiw56.png"/>
+
+  <!-- Example of a modern, clean Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <style>
+    :root {
+      --background: #f7f7f7;
+      --text-color: #333;
+      --link-color: #1a73e8;
+      --button-bg: #e0e0e0;
+      --button-text: #333;
+      --header-bg: linear-gradient(135deg, #17465e, #1c5a77);
+    }
+
+    /* Dark mode overrides */
+    .dark-mode {
+      --background: #121212;
+      --text-color: #f0f0f0;
+      --link-color: #8ab4f8;
+      --button-bg: #333;
+      --button-text: #f0f0f0;
+      --header-bg: linear-gradient(135deg, #333, #555);
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--background);
+      color: var(--text-color);
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+      background: var(--header-bg);
+      color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .header-logo {
+      width: 50px;
+      height: 50px;
+      object-fit: contain;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .toggle-button {
+      padding: 0.5em 1em;
+      background-color: var(--button-bg);
+      color: var(--button-text);
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+    .toggle-button:hover {
+      background-color: #d0d0d0;
+    }
+
+    main {
+      max-width: 1400px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    .file-list {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: #fff;
+      overflow: hidden;
+    }
+    .dark-mode .file-list {
+      background-color: #1e1e1e;
+      border-color: #555;
+    }
+
+    .file-list li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid #ccc;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .dark-mode .file-list li {
+      border-color: #555;
+    }
+    .file-list li:hover {
+      background-color: #eee;
+    }
+    .dark-mode .file-list li:hover {
+      background-color: #333;
+    }
+    .file-title {
+      flex-grow: 1;
+    }
+    .new-tab-link {
+      margin-left: 1rem;
+      font-size: 0.9rem;
+      color: var(--link-color);
+      text-decoration: none;
+    }
+    .new-tab-link img {
+      width: 16px;
+      height: 16px;
+      margin-left: 4px;
+      vertical-align: middle;
+    }
+
+    .iframe-container {
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      overflow: hidden;
+      background-color: #fff;
+    }
+    .dark-mode .iframe-container {
+      background-color: #1e1e1e;
+      border-color: #555;
+    }
+
+    iframe {
+      width: 100%;
+      min-height: 1000px; /* Adjust as needed for your desired preview size */
+      border: none;
+    }
+  </style>
 </head>
 <body>
-    <center>
-    <h1>State of Mayflower</h1>
-    <h3>Mayflower State Code</h3></center>
-    <p>Find the M.S.C. Titles in HTML form here. This will just be for reference and the actual <a href="https://docs.google.com/spreadsheets/d/19wm3zyZKKYvWYyeNFsyn9tLkdMW9XfRw9NSaUoUNWGI/edit?gid=1409593885#gid=1409593885">M.S.C. Google Sheet</a> should be referred to as the true source for all laws and regulations.</p>
-    <p>I will make my best effort to remember to update this after every codification.</p>
+  <header>
+    <div class="header-left">
+      <!-- Add your requested image in the header -->
+      <img
+        src="https://i.imgur.com/lMFLFOE.png"
+        alt="Mayflower Icon"
+        class="header-logo"
+      />
+      <h1>State of Mayflower</h1>
+    </div>
+    <button class="toggle-button" id="darkModeToggle">Toggle Dark Mode</button>
+  </header>
 
-    <h1>Mayflower State Code Titles</h1>
-    <ul id="titles"></ul>
+  <main>
+    <section>
+      <h2>Mayflower State Code Titles</h2>
+      <p>
+        Find the M.S.C. Titles below. For the official laws and regulations, refer
+        to the
+        <a
+          href="https://docs.google.com/spreadsheets/d/19wm3zyZKKYvWYyeNFsyn9tLkdMW9XfRw9NSaUoUNWGI/edit?gid=1409593885#gid=1409593885"
+          target="_blank"
+        >
+          M.S.C. Google Sheet
+        </a>.
+      </p>
+      <ul class="file-list" id="titles"></ul>
+    </section>
 
-    <!--<h1>Volume 2</h1>
-    <ul id="volume2"></ul>
+    <section>
+      <h2>File Preview</h2>
+      <div class="iframe-container">
+        <iframe id="previewFrame" src=""></iframe>
+      </div>
+    </section>
+  </main>
 
-    <h1>Other/Miscellaneous</h1>
-    <ul id="other"></ul>-->
+  <script>
+    // Dark mode toggle functionality
+    const toggleButton = document.getElementById('darkModeToggle');
+    toggleButton.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
 
-    <script>
-      const repoOwner = 'krabzholder';  
-      const repoName = 'mayflowerstatecode';
+    const repoOwner = 'krabzholder';  
+    const repoName = 'mayflowerstatecode';
 
-      async function fetchFileList(folderPath, listId) {
-        const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${folderPath}`;
-        try {
-          const response = await fetch(apiUrl);
-          if (!response.ok) throw new Error(`Failed to fetch file list from ${folderPath}`);
-          const files = await response.json();
-          updateFileList(files, listId, folderPath);
-        } catch (error) {
-          console.error(error);
-        }
+    // Fetch file list from the GitHub repository
+    async function fetchFileList(folderPath, listId) {
+      const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${folderPath}`;
+      try {
+        const response = await fetch(apiUrl);
+        if (!response.ok) throw new Error(`Failed to fetch file list from ${folderPath}`);
+        const files = await response.json();
+        updateFileList(files, listId, folderPath);
+      } catch (error) {
+        console.error(error);
       }
+    }
 
-      function updateFileList(files, listId, folderPath) {
-        const fileList = document.getElementById(listId);
-        fileList.innerHTML = '';  
+    // Update the file list with cleaned file names and an "Open in New Tab" link
+    function updateFileList(files, listId, folderPath) {
+      const fileList = document.getElementById(listId);
+      fileList.innerHTML = '';  
 
-        // Extract numbers and letters for sorting
-        files.sort((a, b) => {
-          const parseTitle = (title) => {
-            const match = title.match(/^Title (\d+)([A-Z]?)_/);
-            if (!match) return [Infinity, '']; // Handle non-matching filenames (e.g., unexpected files)
-            const [, num, letter] = match;
-            return [parseInt(num, 10), letter];
-          };
+      // Sort files by title number and letter (if available)
+      files.sort((a, b) => {
+        const parseTitle = (title) => {
+          const match = title.match(/^Title (\d+)([A-Z]?)_/);
+          if (!match) return [Infinity, '']; 
+          const [, num, letter] = match;
+          return [parseInt(num, 10), letter];
+        };
 
-          const [numA, letterA] = parseTitle(a.name);
-          const [numB, letterB] = parseTitle(b.name);
+        const [numA, letterA] = parseTitle(a.name);
+        const [numB, letterB] = parseTitle(b.name);
 
-          if (numA === numB) return letterA.localeCompare(letterB); // Compare letters if numbers are the same
-          return numA - numB; // Compare numbers
+        if (numA === numB) return letterA.localeCompare(letterB);
+        return numA - numB;
+      });
+
+      // Create list items that load the file in the preview iframe and provide a new tab option
+      files.forEach(file => {
+        // Process the file name: remove underscores and .html extension
+        let displayName = file.name.replace(/_/g, ' ').replace(/\.html$/i, '');
+
+        // Construct the URL to the file in the GitHub Pages site
+        const fileUrl = `https://${repoOwner}.github.io/${repoName}/${folderPath}/${encodeURIComponent(file.name)}`;
+
+        // Create list item container
+        const listItem = document.createElement('li');
+
+        // Create span for display name that loads the file in the iframe when clicked
+        const titleSpan = document.createElement('span');
+        titleSpan.textContent = displayName;
+        titleSpan.className = 'file-title';
+        titleSpan.addEventListener('click', () => {
+          document.getElementById('previewFrame').src = fileUrl;
         });
 
-        // Create the list
-        files.forEach(file => {
-          const listItem = document.createElement('li');
-          const fileLink = document.createElement('a');
-          
-          // Construct the URL to point to the file's path within the GitHub Pages site
-          fileLink.href = `https://${repoOwner}.github.io/${repoName}/${folderPath}/${encodeURIComponent(file.name)}`;
-          fileLink.textContent = file.name;
-          fileLink.target = '_blank'; 
-          listItem.appendChild(fileLink);
-          fileList.appendChild(listItem);
-        });
-      }
+        // Create "Open in New Tab" link + icon
+        const newTabLink = document.createElement('a');
+        newTabLink.innerHTML = `Open in New Tab <img src="https://i.imgur.com/lMFLFOE.png" alt="Open in new tab icon">`;
+        newTabLink.href = fileUrl;
+        newTabLink.target = '_blank';
+        newTabLink.className = 'new-tab-link';
 
+        listItem.appendChild(titleSpan);
+        listItem.appendChild(newTabLink);
+        fileList.appendChild(listItem);
+      });
+    }
 
-      // Fetch files for each folder and populate the lists
-      fetchFileList('titles', 'titles');
-      //fetchFileList('volume2', 'volume2');
-      //fetchFileList('other', 'other');
-    </script>
+    // Fetch and display the files from the 'titles' folder
+    fetchFileList('titles', 'titles');
+  </script>
 </body>
 </html>
