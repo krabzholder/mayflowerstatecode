@@ -4,13 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Mayflower State Code</title>
-  
-  <!-- Open Graph meta tags -->
+
   <meta property="og:title" content="Mayflower State Code"/>
   <meta property="og:description" content="View M.S.C. Online"/>
   <meta property="og:image" content="https://i.imgur.com/smgiw56.png"/>
 
-  <!-- Example of a modern, clean Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -28,7 +26,6 @@
       --header-bg: linear-gradient(135deg, #17465e, #1c5a77);
     }
 
-    /* Dark mode overrides */
     .dark-mode {
       --background: #121212;
       --text-color: #f0f0f0;
@@ -84,6 +81,7 @@
       border-radius: 4px;
       transition: background-color 0.3s;
     }
+
     .toggle-button:hover {
       background-color: #d0d0d0;
     }
@@ -107,6 +105,7 @@
       background-color: #fff;
       overflow: hidden;
     }
+
     .dark-mode .file-list {
       background-color: #1e1e1e;
       border-color: #555;
@@ -121,29 +120,41 @@
       cursor: pointer;
       transition: background-color 0.3s;
     }
+
     .dark-mode .file-list li {
       border-color: #555;
     }
+
     .file-list li:hover {
       background-color: #eee;
     }
+
     .dark-mode .file-list li:hover {
       background-color: #333;
     }
+
     .file-title {
       flex-grow: 1;
     }
+
     .new-tab-link {
       margin-left: 1rem;
       font-size: 0.9rem;
       color: var(--link-color);
       text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 4px;
     }
-    .new-tab-link img {
+
+    .new-tab-link svg {
       width: 16px;
       height: 16px;
-      margin-left: 4px;
-      vertical-align: middle;
+      transition: transform 0.2s ease;
+    }
+
+    .new-tab-link:hover svg {
+      transform: scale(1.2) rotate(5deg);
     }
 
     .iframe-container {
@@ -152,6 +163,7 @@
       overflow: hidden;
       background-color: #fff;
     }
+
     .dark-mode .iframe-container {
       background-color: #1e1e1e;
       border-color: #555;
@@ -159,7 +171,7 @@
 
     iframe {
       width: 100%;
-      min-height: 1000px; /* Adjust as needed for your desired preview size */
+      min-height: 1000px;
       border: none;
     }
   </style>
@@ -167,12 +179,7 @@
 <body>
   <header>
     <div class="header-left">
-      <!-- Add your requested image in the header -->
-      <img
-        src="https://i.imgur.com/lMFLFOE.png"
-        alt="Mayflower Icon"
-        class="header-logo"
-      />
+      <img src="https://i.imgur.com/lMFLFOE.png" alt="Mayflower Icon" class="header-logo" />
       <h1>State of Mayflower</h1>
     </div>
     <button class="toggle-button" id="darkModeToggle">Toggle Dark Mode</button>
@@ -203,16 +210,14 @@
   </main>
 
   <script>
-    // Dark mode toggle functionality
     const toggleButton = document.getElementById('darkModeToggle');
     toggleButton.addEventListener('click', () => {
       document.body.classList.toggle('dark-mode');
     });
 
-    const repoOwner = 'krabzholder';  
+    const repoOwner = 'krabzholder';
     const repoName = 'mayflowerstatecode';
 
-    // Fetch file list from the GitHub repository
     async function fetchFileList(folderPath, listId) {
       const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${folderPath}`;
       try {
@@ -225,39 +230,29 @@
       }
     }
 
-    // Update the file list with cleaned file names and an "Open in New Tab" link
     function updateFileList(files, listId, folderPath) {
       const fileList = document.getElementById(listId);
-      fileList.innerHTML = '';  
+      fileList.innerHTML = '';
 
-      // Sort files by title number and letter (if available)
       files.sort((a, b) => {
         const parseTitle = (title) => {
           const match = title.match(/^Title (\d+)([A-Z]?)_/);
-          if (!match) return [Infinity, '']; 
+          if (!match) return [Infinity, ''];
           const [, num, letter] = match;
           return [parseInt(num, 10), letter];
         };
-
         const [numA, letterA] = parseTitle(a.name);
         const [numB, letterB] = parseTitle(b.name);
-
         if (numA === numB) return letterA.localeCompare(letterB);
         return numA - numB;
       });
 
-      // Create list items that load the file in the preview iframe and provide a new tab option
       files.forEach(file => {
-        // Process the file name: remove underscores and .html extension
         let displayName = file.name.replace(/_/g, ' ').replace(/\.html$/i, '');
-
-        // Construct the URL to the file in the GitHub Pages site
         const fileUrl = `https://${repoOwner}.github.io/${repoName}/${folderPath}/${encodeURIComponent(file.name)}`;
 
-        // Create list item container
         const listItem = document.createElement('li');
 
-        // Create span for display name that loads the file in the iframe when clicked
         const titleSpan = document.createElement('span');
         titleSpan.textContent = displayName;
         titleSpan.className = 'file-title';
@@ -265,12 +260,15 @@
           document.getElementById('previewFrame').src = fileUrl;
         });
 
-        // Create "Open in New Tab" link + icon
         const newTabLink = document.createElement('a');
-        newTabLink.innerHTML = `Open in New Tab <img src="https://i.imgur.com/zjKjmpI.png" alt="Open in new tab icon">`;
+        newTabLink.className = 'new-tab-link';
         newTabLink.href = fileUrl;
         newTabLink.target = '_blank';
-        newTabLink.className = 'new-tab-link';
+        newTabLink.innerHTML = `
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M6 2a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v7a1 1 0 1 1-2 0V4.41l-9.29 9.3a1 1 0 0 1-1.42-1.42L10.59 3H7a1 1 0 0 1-1-1z"/>
+          </svg>
+        `;
 
         listItem.appendChild(titleSpan);
         listItem.appendChild(newTabLink);
@@ -278,7 +276,6 @@
       });
     }
 
-    // Fetch and display the files from the 'titles' folder
     fetchFileList('titles', 'titles');
   </script>
 </body>
