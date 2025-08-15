@@ -1,0 +1,1140 @@
+[
+    {
+        "Class": 2,
+        "Name": "Treason",
+        "Arrest": 60
+    },
+    {
+        "Name": "Bribery",
+        "Arrest": 50
+    },
+    {
+        "Name": "Obstruction of justice",
+        "Arrest": 27
+    },
+    {
+        "Name": "Evasion",
+        "Arrest": 15
+    },
+    {
+        "Points": 3,
+        "Class": 2,
+        "Name": "Felony evasion",
+        "Arrest": 20
+    },
+    {
+        "Class": 2,
+        "Name": "Impersonation of a Peace Officer",
+        "Arrest": 30
+    },
+    {
+        "Class": 2,
+        "Name": "Second-degree murder",
+        "Arrest": 40
+    },
+    {
+        "Class": 2,
+        "Name": "Kidnapping",
+        "Arrest": 25
+    },
+    {
+        "Class": 2,
+        "Name": "Involuntary manslaughter",
+        "Arrest": 20
+    },
+    {
+        "Class": 2,
+        "Name": "Voluntary manslaughter",
+        "Arrest": 25
+    },
+    {
+        "Class": 2,
+        "Name": "False imprisonment",
+        "Arrest": 20
+    },
+    {
+        "Class": 2,
+        "Name": "Extortion",
+        "Arrest": 30,
+        "Fine": 50000
+    },
+    {
+        "Class": 2,
+        "Name": "Robbery",
+        "Arrest": 15
+    },
+    {
+        "Class": 2,
+        "Name": "Assault with a deadly weapon",
+        "Arrest": 23
+    },
+    {
+        "Name": "Assault",
+        "Arrest": 15
+    },
+    {
+        "Name": "Battery",
+        "Arrest": 17
+    },
+    {
+        "Points": 2,
+        "Class": 2,
+        "Name": "Felony hit and run",
+        "Arrest": 20
+    },
+    {
+        "Fine": 500,
+        "Points": 2,
+        "Name": "Hit and run",
+        "Arrest": 10
+    },
+    {
+        "Class": 2,
+        "Name": "Arson",
+        "Arrest": 25
+    },
+    {
+        "Class": 2,
+        "Name": "Burglary",
+        "Arrest": 15
+    },
+    {
+        "Class": 2,
+        "Name": "Grand theft",
+        "Arrest": 15
+    },
+    {
+        "Fine": 250,
+        "Name": "Petty theft",
+        "Arrest": 10
+    },
+    {
+        "Fine": 300,
+        "Name": "Trespassing",
+        "Arrest": 5
+    },
+    {
+        "Fine": 2200,
+        "Points": 2,
+        "Name": "Reckless driving",
+        "Arrest": 10
+    },
+    {
+        "Fine": 2000,
+        "Points": 1,
+        "Name": "Failure to Yield to Emergency Vehicles",
+        "Arrest": 10
+    },
+    {
+        "Name": "Speeding",
+        "Fine": 300
+    },
+    {
+        "Points": 1,
+        "Name": "Failure to Stop at a Traffic Control Device",
+        "Fine": 1250
+    },
+    {
+        "Points": 1,
+        "Name": "Failure to Stop at a Traffic Control Sign",
+        "Fine": 1250
+    },
+    {
+        "Points": 1,
+        "Name": "Dangerous lane change",
+        "Fine": 1800
+    },
+    {
+        "Hidden": true,
+        "Fine": 100,
+        "Name": "Discharging a firearm in city limits",
+        "Arrest": 1
+    },
+    {
+        "Fine": 1700,
+        "Points": 2,
+        "Name": "Obstruction of Traffic",
+        "Arrest": 10
+    },
+    {
+        "Fine": 300,
+        "Name": "Vandalism",
+        "Arrest": 5
+    },
+    {
+        "Name": "Failure to pay citation",
+        "Arrest": 10
+    },
+    {
+        "Fine": 75,
+        "Name": "Brandishing a firearm in city limits",
+        "Arrest": 5
+    },
+    {
+        "Arrest": 5,
+        "Name": "Failure to comply",
+        "Fine": 350
+    },
+    {
+        "Fine": 10000,
+        "Name": "Contempt of court",
+        "Arrest": 20
+    },
+    {
+        "Name": "Failure to appear",
+        "Arrest": 5
+    },
+    {
+        "Class": 2,
+        "Name": "First-degree murder",
+        "Arrest": 45
+    },
+    {
+        "Name": "Illegal parking",
+        "Fine": 100
+    },
+    {
+        "Points": 1,
+        "Name": "Driving without headlights",
+        "Fine": 1000
+    },
+    {
+        "Fine": 230,
+        "Name": "Solicitation to commit a crime",
+        "Arrest": 6
+    },
+    {
+        "Class": 2,
+        "Name": "Conspiracy to commit a crime",
+        "Arrest": 10,
+        "Hidden": true
+    },
+    {
+        "Fine": 230,
+        "Class": 2,
+        "Name": "Attempt to commit a crime",
+        "Arrest": 6
+    },
+    {
+        "Fine": 300,
+        "Name": "Criminal threats",
+        "Arrest": 15
+    },
+    {
+        "Fine": 90000,
+        "Name": "Concealing/destroying evidence",
+        "Arrest": 90
+    },
+    {
+        "Name": "Aiding and abetting",
+        "Arrest": 0
+    },
+    {
+        "Class": 2,
+        "Name": "Unlawful dealing of a firearm",
+        "Arrest": 25
+    },
+    {
+        "Class": 2,
+        "Name": "Unlicensed possession of a firearm",
+        "Arrest": 22,
+        "Hidden": true
+    },
+    {
+        "Fine": 750,
+        "Name": "Unauthorized possession of a high-capacity magazine",
+        "Arrest": 15
+    },
+    {
+        "Fine": 15000,
+        "Name": "Contempt of Senate",
+        "Arrest": 25
+    },
+    {
+        "Fine": 300,
+        "Name": "Disorderly conduct",
+        "Arrest": 10
+    },
+    null,
+    null,
+    {
+        "Fine": 15000,
+        "Class": 2,
+        "Name": "Misconduct",
+        "Arrest": 5
+    },
+    {
+        "Class": 2,
+        "Name": "Gross misconduct",
+        "Arrest": 50,
+        "Fine": 130000
+    },
+    {
+        "Class": 2,
+        "Name": "Felony misconduct",
+        "Arrest": 60,
+        "Fine": 150000
+    },
+    {
+        "Fine": 2500,
+        "Class": 1,
+        "Name": "Unlicensed possession of non-civilian equipment",
+        "Arrest": 20,
+        "Hidden": true
+    },
+    {
+        "Fine": 500,
+        "Class": 1,
+        "Name": "Carrying a firearm in a firearm-free zone",
+        "Arrest": 17
+    },
+    {
+        "Class": 2,
+        "Name": "Espionage",
+        "Arrest": 5
+    },
+    null,
+    {
+        "Fine": 15000,
+        "Class": 1,
+        "Name": "Unlawful Operation of a Business",
+        "Arrest": 10
+    },
+    {
+        "Class": 1,
+        "Name": "Unlawful dealing of ammunition",
+        "Arrest": 15
+    },
+    {
+        "Fine": 500,
+        "Class": 1,
+        "Name": "Unlicensed possession of ammunition",
+        "Arrest": 10
+    },
+    {
+        "Fine": 1000,
+        "Class": 1,
+        "Name": "False filling of a police report",
+        "Arrest": 13
+    },
+    {
+        "Class": 2,
+        "Name": "Unauthorized distribution of classified information",
+        "Arrest": 5
+    },
+    {
+        "Class": 2,
+        "Name": "Attempted murder",
+        "Arrest": 30
+    },
+    {
+        "Fine": 300,
+        "Class": 1,
+        "Name": "Driving an unroadworthy vehicle",
+        "Arrest": 10
+    },
+    {
+        "Points": 1,
+        "Class": 0,
+        "Name": "Improper Lane of Travel",
+        "Fine": 1050
+    },
+    {
+        "Class": 0,
+        "Name": "Failure to Signal",
+        "Fine": 1050
+    },
+    {
+        "Arrest": 45,
+        "Class": 2,
+        "Name": "Perjury",
+        "Fine": 80000
+    },
+    {
+        "Class": 2,
+        "Name": "Armed robbery",
+        "Arrest": 25
+    },
+    {
+        "Arrest": 15,
+        "Class": 1,
+        "Name": "Breaking and entering",
+        "Fine": 750
+    },
+    {
+        "Class": 2,
+        "Name": "Grand theft auto",
+        "Arrest": 20
+    },
+    {
+        "Class": 2,
+        "Name": "Hijacking",
+        "Arrest": 27
+    },
+    {
+        "Points": 1,
+        "Name": "Driving in a No-Commercial-Vehicle Zone",
+        "Fine": 450
+    },
+    {
+        "Fine": 200,
+        "Class": 2,
+        "Name": "Unlicensed possession of a gavel",
+        "Arrest": 10
+    },
+    {
+        "Hidden": true,
+        "Name": "Illegal U-Turn",
+        "Fine": 25
+    },
+    {
+        "Name": "Excessive Speeding",
+        "Arrest": 7,
+        "Points": 2,
+        "Hidden": false,
+        "Fine": 2000
+    },
+    {
+        "Name": "Felony Obstruction of a Vehicle Pursuit",
+        "Arrest": 15,
+        "Points": 2,
+        "Hidden": true,
+        "Fine": 350
+    },
+    {
+        "Fine": 750,
+        "Name": "Obstruction of Railroad Operations",
+        "Arrest": 10
+    },
+    {
+        "Fine": 75,
+        "Name": "Brandishing a firearm",
+        "Arrest": 10
+    },
+    {
+        "Fine": 100,
+        "Name": "Discharging a firearm",
+        "Arrest": 15
+    },
+    {
+        "Name": "Direction of organized crime",
+        "Arrest": 40
+    },
+    {
+        "Name": "Engagement in organized crime",
+        "Arrest": 35
+    },
+    {
+        "Fine": 350,
+        "Name": "Unlawful dealing of non-civilian equipment",
+        "Arrest": 25
+    },
+    {
+        "Class": 2,
+        "Name": "Criminal Anarchy",
+        "Arrest": 150
+    },
+    {
+        "Class": 0,
+        "Name": "Noise pollution",
+        "Fine": 1000,
+        "Arrest": 10
+    },
+    {
+        "Fine": 200,
+        "Name": "Obstruction of Correspondence",
+        "Arrest": 20
+    },
+    {
+        "Fine": 250,
+        "Points": 2,
+        "Name": "Operate commercial vehicle without valid CDL",
+        "Arrest": 15
+    },
+    {
+        "Fine": 200,
+        "Name": "Disturbing the peace",
+        "Arrest": 5
+    },
+    {
+        "Fine": 150,
+        "Name": "Obstruction of Emergency Services",
+        "Arrest": 15
+    },
+    {
+        "Fine": 1800,
+        "Points": 2,
+        "Name": "Driving without a license",
+        "Arrest": 10
+    },
+    {
+        "Fine": 2500,
+        "Name": "Smuggling",
+        "Arrest": 18
+    },
+    {
+        "Fine": 125000,
+        "Class": 2,
+        "Name": "Fabricating Evidence",
+        "Arrest": 90
+    },
+    {
+        "Points": 4,
+        "Name": "Import of prohibited goods",
+        "Arrest": 20
+    },
+    {
+        "Fine": 2500,
+        "Name": "Possession of Prohibited Goods I",
+        "Arrest": 30
+    },
+    {
+        "Fine": 1000,
+        "Name": "Unfair Housing Practices",
+        "Arrest": 10
+    },
+    {
+        "Name": "Criminal Trademark Infringement",
+        "Arrest": 10
+    },
+    {
+        "Points": 4,
+        "Name": "Vehicular homicide",
+        "Arrest": 25
+    },
+    {
+        "Name": "Discharging of a destructive device causing death or bodily harm",
+        "Arrest": 55
+    },
+    {
+        "Name": "Discharging of a destructive device",
+        "Arrest": 35
+    },
+    {
+        "Name": "Escape",
+        "Arrest": 25
+    },
+    {
+        "Name": "Coercion by threats",
+        "Arrest": 30
+    },
+    {
+        "Name": "Racketeering",
+        "Arrest": 15
+    },
+    {
+        "Fine": 350,
+        "Name": "Failure to identify",
+        "Arrest": 5
+    },
+    {
+        "Name": "Disabled Vehicles Obstructing Traffic",
+        "Fine": 1000
+    },
+    {
+        "Fine": 500,
+        "Class": 1,
+        "Name": "Fishing without a license",
+        "Arrest": 10
+    },
+    {
+        "Fine": 870,
+        "Class": 1,
+        "Name": "Fishing prohibited fish",
+        "Arrest": 15
+    },
+    {
+        "Class": 0,
+        "Name": "Fishing on protected lands",
+        "Fine": 920
+    },
+    {
+        "Class": 2,
+        "Name": "Prohibited sale of fish",
+        "Arrest": 15
+    },
+    null,
+    {
+        "Name": "Failure to comply with inspection",
+        "Arrest": 10,
+        "Class": 2,
+        "Points": 2,
+        "Fine": 1200
+    },
+    {
+        "Fine": 10000,
+        "Class": 2,
+        "Name": "Inciting a riot",
+        "Arrest": 20
+    },
+    {
+        "Fine": 500,
+        "Class": 1,
+        "Name": "Rioiting",
+        "Arrest": 8
+    },
+    {
+        "Fine": 250,
+        "Class": 1,
+        "Name": "Unlawful Assembly",
+        "Arrest": 6
+    },
+    {
+        "Fine": 5000,
+        "Class": 1,
+        "Name": "Fraud (First Degree)",
+        "Arrest": 18
+    },
+    {
+        "Fine": 1000,
+        "Class": 1,
+        "Name": "Fraud (Second Degree)",
+        "Arrest": 12
+    },
+    {
+        "Fine": 65000,
+        "Class": 2,
+        "Name": "Commercial instrument falsification in the first degree",
+        "Arrest": 16
+    },
+    {
+        "Fine": 500,
+        "Class": 2,
+        "Name": "Commercial instrument falsification in the second degree",
+        "Arrest": 10
+    },
+    {
+        "Class": 2,
+        "Name": "Unauthorized possession of a destructive device",
+        "Arrest": 37
+    },
+    {
+        "Name": "Conspiracy to commit offense or to defraud the State of Mayflower",
+        "Arrest": 30
+    },
+    null,
+    null,
+    null,
+    {
+        "Class": 2,
+        "Name": "Felony Obstruction of Railroad Operations",
+        "Arrest": 15
+    },
+    {
+        "Class": 2,
+        "Name": "Aggravated Battery",
+        "Arrest": 25
+    },
+    {
+        "Fine": 5000,
+        "Class": 2,
+        "Name": "Fraud in the first degree",
+        "Arrest": 18
+    },
+    {
+        "Fine": 1000,
+        "Class": 1,
+        "Name": "Fraud in the second degree",
+        "Arrest": 12
+    },
+    {
+        "Name": "Truancy",
+        "Fine": 1000,
+        "Hidden": true
+    },
+    {
+        "Class": 2,
+        "Name": "Racketeering conspiracy",
+        "Arrest": 21
+    },
+    {
+        "Arrest": 18,
+        "Points": 1,
+        "Name": "Unlawful disposure of a motor vehicle into a fish habitat",
+        "Fine": 1500
+    },
+    {
+        "Points": 2,
+        "Name": "Street Racing",
+        "Arrest": 15,
+        "Fine": 2000
+    },
+    {
+        "Arrest": 10,
+        "Points": 1,
+        "Name": "Operating a Unroadworthy Vehicle",
+        "Fine": 1500
+    },
+    {
+        "Name": "Illegally Tinted Windows",
+        "Fine": 1100
+    },
+    {
+        "Name": "Unlawful Transport of Persons",
+        "Fine": 1200
+    },
+    {
+        "Name": "Idling",
+        "Fine": 100
+    },
+    {
+        "Points": 2,
+        "Name": "Careless Driving",
+        "Fine": 1400,
+        "Hidden": true
+    },
+    {
+        "Points": 2,
+        "Name": "Careless Driving",
+        "Fine": 1400
+    },
+    {
+        "Points": 1,
+        "Name": "Failure to Maintain Lanes",
+        "Fine": 1100
+    },
+    {
+        "Class": 1,
+        "Name": "Unauthorized Access to a Bridge",
+        "Fine": 1300
+    },
+    {
+        "Points": 1,
+        "Name": "Impeding Traffic",
+        "Fine": 1100
+    },
+    {
+        "Fine": 5000,
+        "Class": 2,
+        "Name": "Felony Reckless Driving",
+        "Arrest": 20
+    },
+    {
+        "Name": "Following too Closely",
+        "Fine": 1100
+    },
+    {
+        "Fine": 1200,
+        "Name": "Unlawful Overtaking or Passing of a Vehicle",
+        "Arrest": 5
+    },
+    {
+        "Points": 1,
+        "Name": "Interference with a Traffic Control Sign",
+        "Fine": 1250
+    },
+    {
+        "Points": 1,
+        "Name": "Interference with a Traffic Control Device",
+        "Fine": 1250
+    },
+    {
+        "Points": 1,
+        "Name": "Operating a Class IV Motor Vehicle outside of Designated Hours (1-3am)",
+        "Fine": 2,
+        "Hidden": true
+    },
+    {
+        "Arrest": 18,
+        "Name": "Prohibited Fishing off of a Bridge",
+        "Fine": 1500
+    },
+    {
+        "Points": 1,
+        "Name": "Unlawful use of Warning Lights",
+        "Fine": 350
+    },
+    {
+        "Arrest": 12,
+        "Name": "Unlawful Use of Special Equipment",
+        "Fine": 1500
+    },
+    {
+        "Arrest": 15,
+        "Name": "Obstruction of a Tunnel or Bridge",
+        "Fine": 3000
+    },
+    {
+        "Name": "Operating a Commercial Vehicle within the Left Lane",
+        "Fine": 500
+    },
+    {
+        "Arrest": 10,
+        "Name": "Impersonation of a Public Servant"
+    },
+    {
+        "Arrest": 12,
+        "Name": "Obstruction of Transportation Authority Personnel",
+        "Fine": 1500
+    },
+    {
+        "Arrest": 20,
+        "Name": "Obstruction of Emergency Services",
+        "Fine": 1500
+    },
+    {
+        "Arrest": 12,
+        "Name": "Obstruction of Conservation",
+        "Fine": 1500
+    },
+    {
+        "Arrest": 7,
+        "Name": "Impersonation of an Individual"
+    },
+    {
+        "Arrest": 20,
+        "Name": "Unauthorized Disclosure of Trade Secrets",
+        "Fine": 20000
+    },
+    {
+        "Arrest": 15,
+        "Name": "Unauthorized Usage of Intellectual Property",
+        "Fine": 10000
+    },
+    {
+        "Arrest": 30,
+        "Name": "Corporate Espionage",
+        "Fine": 50000
+    },
+    {
+        "Arrest": 30,
+        "Name": "Insurance Claims Misconduct"
+    },
+    {
+        "Arrest": 15,
+        "Name": "Disorderly Conduct within Senate Chambers",
+        "Fine": 5000
+    },
+    {
+        "Arrest": 30,
+        "Name": "Bank Robbery"
+    },
+    {
+        "Arrest": 30,
+        "Name": "Money Laundering",
+        "Fine": 5000
+    },
+    {
+        "Arrest": 50,
+        "Name": "Embezzlement",
+        "Fine": 5000
+    },
+    {
+        "Arrest": 60,
+        "Name": "Counterfeiting"
+    },
+    {
+        "Arrest": 25,
+        "Name": "Loan Sharking",
+        "Fine": 20000
+    },
+    {
+        "Arrest": 25,
+        "Name": "Import of Prohibited Goods",
+        "Fine": 7500
+    },
+    {
+        "Arrest": 25,
+        "Name": "Possession of Prohibited Goods II",
+        "Fine": 2500
+    },
+    {
+        "Arrest": 25,
+        "Name": "Possession of Prohibited Goods III",
+        "Fine": 1000
+    },
+    {
+        "Arrest": 15,
+        "Name": "Possession of Prohibited Goods to Craft",
+        "Fine": 1000
+    },
+    {
+        "Arrest": 45,
+        "Name": "Operation of an Aircraft in Restricted Airspace"
+    },
+    {
+        "Arrest": 32,
+        "Name": "Obstruction of a Flight Crew"
+    },
+    {
+        "Arrest": 45,
+        "Name": "Unlawful Operation of an Aircraft"
+    },
+    {
+        "Arrest": 80,
+        "Name": "Sabotage of an Aircraft"
+    },
+    {
+        "Arrest": 120,
+        "Name": "Use of Explosives to Destroy an Aircraft"
+    },
+    {
+        "Arrest": 35,
+        "Name": "Aeronautical Smuggling"
+    },
+    {
+        "Arrest": 40,
+        "Name": "Fraudulent Usage of an Aircraft"
+    },
+    {
+        "Arrest": 15,
+        "Name": "Failure to Comply with Air Traffic Control",
+        "Fine": 25000
+    },
+    {
+        "Arrest": 18,
+        "Name": "Violation of Altitude Requirements"
+    },
+    {
+        "Arrest": 20,
+        "Name": "Violation of Flight Codes",
+        "Fine": 100000
+    },
+    {
+        "Arrest": 25,
+        "Name": "Insurance Fraud",
+        "Fine": 30000
+    },
+    {
+        "Arrest": 10,
+        "Name": "Failure to Pay a Private Driver",
+        "Fine": 1000
+    },
+    {
+        "Arrest": 90,
+        "Name": "Discharging a destructive device around a Commercial Property"
+    },
+    {
+        "Arrest": 45,
+        "Name": "Discharging of a destructive device within a Port-of-Entry"
+    },
+    {
+        "Name": "Logging on Protected Lands",
+        "Fine": 2000
+    },
+    {
+        "Arrest": 10,
+        "Name": "Unlawful Conduct in a Protected Building",
+        "Fine": 500
+    },
+    {
+        "Arrest": 120,
+        "Name": "Insurrection"
+    },
+    {
+        "Arrest": 40,
+        "Name": "Engagement in a Criminal Anarchy Organization"
+    },
+    {
+        "Arrest": 90,
+        "Name": "Direction of a Criminal Anarchy Organization"
+    },
+    {
+        "Arrest": 60,
+        "Name": "Supporting a Criminal Anarchy Organization"
+    },
+    {
+        "Arrest": 25,
+        "Name": "Felony Trespass",
+        "Fine": 1000
+    },
+    {
+        "Arrest": 8,
+        "Name": "Failure to Register with Selective Service",
+        "Fine": 50000
+    },
+    {
+        "Arrest": 40,
+        "Name": "Failure to Report to Selective Service",
+        "Fine": 50000
+    },
+    {
+        "Arrest": 12,
+        "Name": "Petty Possession of Controlled Goods",
+        "Fine": 5500
+    },
+    {
+        "Arrest": 18,
+        "Name": "Grand Possession of Controlled Goods",
+        "Fine": 12500
+    },
+    {
+        "Arrest": 30,
+        "Name": "Felony Possession of Controlled Goods"
+    },
+    {
+        "Arrest": 90,
+        "Name": "Witness Tampering"
+    },
+    {
+        "Arrest": 120,
+        "Name": "Jury Tampering"
+    },
+    {
+        "Arrest": 55,
+        "Name": "Aircraft Hijacking"
+    },
+    {
+        "Arrest": 30,
+        "Name": "Hostage Taking"
+    },
+    {
+        "Arrest": 35,
+        "Name": "Destruction of Property"
+    },
+    {
+        "Arrest": 10,
+        "Name": "Violation of MTA Rules of Conduct",
+        "Fine": 200
+    },
+    {
+        "Arrest": 1,
+        "Name": "Held on Remand",
+        "Hidden": true
+    },
+    {
+        "Arrest": 10,
+        "Name": "Unauthorized Stockpile of Firearms"
+    },
+    {
+        "Arrest": 120,
+        "Name": "Unauthorized Stockpile of Destructive Devices"
+    },
+    {
+        "Arrest": 10,
+        "Name": "Unauthorized Stockpile of Ammunition",
+        "Hidden": true
+    },
+    {
+        "Arrest": 10,
+        "Name": "Unauthorized Stockpile of High-Capacity Ammunition",
+        "Hidden": true
+    },
+    {
+        "Arrest": 20,
+        "Name": "Insider Trading",
+        "Fine": 1
+    },
+    {
+        "Arrest": 20,
+        "Name": "Securities Fraud",
+        "Fine": 1
+    },
+    {
+        "Arrest": 30,
+        "Name": "Market Manipulation",
+        "Fine": 1
+    },
+    {
+        "Arrest": 1,
+        "Name": "Misc Judicial Order",
+        "Fine": 1
+    },
+    {
+        "Name": "Discharging of a destructive device within a Vehicle Dealership",
+        "Arrest": 70
+    },
+    {
+        "Name": "Discharging of a destructive device within a Commercial Dealership",
+        "Arrest": 90
+    },
+    {
+        "Name": "Discharging of a destructive device within a Aviation Property",
+        "Arrest": 120
+    },
+    {
+        "Name": "Unlawful Introduction, Possession, or Manufacture of Prohibited Merchandise in a Correctional Facility",
+        "Arrest": 18,
+        "Fine": 3000
+    },
+    {
+        "Name": "Impersonation of a Private Security Officer",
+        "Arrest": 10
+    },
+    {
+        "Name": "Evidence Theft",
+        "Arrest": 15
+    },
+    {
+        "Name": "Evidence Theft Relating to Firearms",
+        "Arrest": 20
+    },
+    {
+        "Name": "Stalking",
+        "Arrest": 10
+    },
+    {
+        "Name": "Aggravated stalking",
+        "Arrest": 20
+    },
+    {
+        "Name": "Fraudulent Practice of Law",
+        "Fine": 1,
+        "Arrest": 1
+    },
+    {
+        "Name": "False statements",
+        "Arrest": 30
+    },
+    {
+        "Name": "Participation of War as a Foreign Actor",
+        "Arrest": 40
+    },
+    {
+        "Name": "Conspiracy against rights",
+        "Arrest": 35
+    },
+    {
+        "Name": "Deprivation of rights under color of law",
+        "Arrest": 35
+    },
+    {
+        "Name": "Destruction of a Vehicle",
+        "Arrest": 40
+    },
+    {
+        "Name": "Destruction of a Commercial Vehicle",
+        "Arrest": 60
+    },
+    {
+        "Name": "High-risk offender in possession of a firearm",
+        "Arrest": 30
+    },
+    {
+        "Name": "Delinquent Registration by a High-Risk Offender",
+        "Arrest": 90
+    },
+    {
+        "Name": "Unauthorized possession of non-civilian firearm",
+        "Arrest": 35
+    },
+    {
+        "Name": "Unauthorized possession of military-grade firearm",
+        "Arrest": 45
+    },
+    {
+        "Name": "Unauthorized possession of a Taser",
+        "Arrest": 35
+    },
+    {
+        "Name": "Stockpile of a Taser",
+        "Arrest": 45
+    },
+    {
+        "Name": "Unlawful Dealing of restricted-grade equipment",
+        "Arrest": 45
+    },
+    {
+        "Name": "Unlawful Dealing of military-grade equipment",
+        "Arrest": 45
+    },
+    {
+        "Name": "Failure to Yield to Stopped Emergency Vehicles",
+        "Arrest": 10,
+        "Fine": 2000
+    },
+    {
+        "Name": "Unlawful possession of a firearm",
+        "Arrest": 30
+    }
+]
