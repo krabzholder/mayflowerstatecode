@@ -237,7 +237,8 @@
     {
         "Class": 2,
         "Name": "Unlicensed possession of a firearm",
-        "Arrest": 22
+        "Arrest": 22,
+        "Hidden": true
     },
     {
         "Fine": 750,
@@ -278,7 +279,8 @@
         "Fine": 2500,
         "Class": 1,
         "Name": "Unlicensed possession of non-civilian equipment",
-        "Arrest": 20
+        "Arrest": 20,
+        "Hidden": true
     },
     {
         "Fine": 500,
@@ -1000,11 +1002,13 @@
     },
     {
         "Arrest": 10,
-        "Name": "Unauthorized Stockpile of Ammunition"
+        "Name": "Unauthorized Stockpile of Ammunition",
+        "Hidden": true
     },
     {
         "Arrest": 10,
-        "Name": "Unauthorized Stockpile of High-Capacity Ammunition"
+        "Name": "Unauthorized Stockpile of High-Capacity Ammunition",
+        "Hidden": true
     },
     {
         "Arrest": 20,
@@ -1099,5 +1103,38 @@
     {
         "Name": "Delinquent Registration by a High-Risk Offender",
         "Arrest": 90
+    },
+    {
+        "Name": "Unauthorized possession of non-civilian firearm",
+        "Arrest": 35
+    },
+    {
+        "Name": "Unauthorized possession of military-grade firearm",
+        "Arrest": 45
+    },
+    {
+        "Name": "Unauthorized possession of a Taser",
+        "Arrest": 35
+    },
+    {
+        "Name": "Stockpile of a Taser",
+        "Arrest": 45
+    },
+    {
+        "Name": "Unlawful Dealing of restricted-grade equipment",
+        "Arrest": 45
+    },
+    {
+        "Name": "Unlawful Dealing of military-grade equipment",
+        "Arrest": 45
+    },
+    {
+        "Name": "Failure to Yield to Stopped Emergency Vehicles",
+        "Arrest": 10,
+        "Fine": 2000
+    },
+    {
+        "Name": "Unlawful possession of a firearm",
+        "Arrest": 30
     }
 ]
