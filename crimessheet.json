@@ -2,7 +2,7 @@
     {
         "Class": 2,
         "Name": "Treason",
-        "Arrest": 60
+        "Arrest": 1
     },
     {
         "Name": "Bribery",
@@ -56,7 +56,7 @@
         "Class": 2,
         "Name": "Extortion",
         "Arrest": 30,
-        "Fine": 50000
+        "Fine": 1
     },
     {
         "Class": 2,
@@ -223,7 +223,7 @@
     {
         "Fine": 90000,
         "Name": "Concealing/destroying evidence",
-        "Arrest": 90
+        "Arrest": 1
     },
     {
         "Name": "Aiding and abetting",
@@ -246,9 +246,10 @@
         "Arrest": 15
     },
     {
-        "Fine": 15000,
+        "Fine": 1,
         "Name": "Contempt of Senate",
-        "Arrest": 25
+        "Arrest": 1,
+        "Hidden": true
     },
     {
         "Fine": 300,
@@ -258,22 +259,22 @@
     null,
     null,
     {
-        "Fine": 15000,
+        "Fine": 1,
         "Class": 2,
         "Name": "Misconduct",
-        "Arrest": 5
+        "Arrest": 1
     },
     {
         "Class": 2,
         "Name": "Gross misconduct",
-        "Arrest": 50,
-        "Fine": 130000
+        "Arrest": 1,
+        "Fine": 1
     },
     {
         "Class": 2,
         "Name": "Felony misconduct",
-        "Arrest": 60,
-        "Fine": 150000
+        "Arrest": 1,
+        "Fine": 1
     },
     {
         "Fine": 2500,
@@ -291,14 +292,14 @@
     {
         "Class": 2,
         "Name": "Espionage",
-        "Arrest": 5
+        "Arrest": 1
     },
     null,
     {
-        "Fine": 15000,
+        "Fine": 1,
         "Class": 1,
         "Name": "Unlawful Operation of a Business",
-        "Arrest": 10
+        "Arrest": 1
     },
     {
         "Class": 1,
@@ -320,7 +321,7 @@
     {
         "Class": 2,
         "Name": "Unauthorized distribution of classified information",
-        "Arrest": 5
+        "Arrest": 1
     },
     {
         "Class": 2,
@@ -345,10 +346,10 @@
         "Fine": 1050
     },
     {
-        "Arrest": 45,
+        "Arrest": 1,
         "Class": 2,
         "Name": "Perjury",
-        "Fine": 80000
+        "Fine": 1
     },
     {
         "Class": 2,
@@ -476,7 +477,7 @@
         "Fine": 125000,
         "Class": 2,
         "Name": "Fabricating Evidence",
-        "Arrest": 90
+        "Arrest": 1
     },
     {
         "Points": 4,
@@ -781,22 +782,22 @@
         "Name": "Impersonation of an Individual"
     },
     {
-        "Arrest": 20,
+        "Arrest": 1,
         "Name": "Unauthorized Disclosure of Trade Secrets",
-        "Fine": 20000
+        "Fine": 1
     },
     {
-        "Arrest": 15,
+        "Arrest": 1,
         "Name": "Unauthorized Usage of Intellectual Property",
-        "Fine": 10000
+        "Fine": 1
     },
     {
-        "Arrest": 30,
+        "Arrest": 1,
         "Name": "Corporate Espionage",
-        "Fine": 50000
+        "Fine": 1
     },
     {
-        "Arrest": 30,
+        "Arrest": 1,
         "Name": "Insurance Claims Misconduct"
     },
     {
@@ -814,18 +815,18 @@
         "Fine": 5000
     },
     {
-        "Arrest": 50,
+        "Arrest": 1,
         "Name": "Embezzlement",
-        "Fine": 5000
+        "Fine": 1
     },
     {
-        "Arrest": 60,
+        "Arrest": 1,
         "Name": "Counterfeiting"
     },
     {
-        "Arrest": 25,
+        "Arrest": 1,
         "Name": "Loan Sharking",
-        "Fine": 20000
+        "Fine": 1
     },
     {
         "Arrest": 25,
@@ -848,7 +849,7 @@
         "Fine": 1000
     },
     {
-        "Arrest": 45,
+        "Arrest": 1,
         "Name": "Operation of an Aircraft in Restricted Airspace"
     },
     {
@@ -885,9 +886,9 @@
         "Name": "Violation of Altitude Requirements"
     },
     {
-        "Arrest": 20,
+        "Arrest": 1,
         "Name": "Violation of Flight Codes",
-        "Fine": 100000
+        "Fine": 1
     },
     {
         "Arrest": 25,
@@ -917,7 +918,7 @@
         "Fine": 500
     },
     {
-        "Arrest": 120,
+        "Arrest": 1,
         "Name": "Insurrection"
     },
     {
@@ -925,11 +926,11 @@
         "Name": "Engagement in a Criminal Anarchy Organization"
     },
     {
-        "Arrest": 90,
+        "Arrest": 1,
         "Name": "Direction of a Criminal Anarchy Organization"
     },
     {
-        "Arrest": 60,
+        "Arrest": 1,
         "Name": "Supporting a Criminal Anarchy Organization"
     },
     {
@@ -962,11 +963,11 @@
         "Name": "Felony Possession of Controlled Goods"
     },
     {
-        "Arrest": 90,
+        "Arrest": 1,
         "Name": "Witness Tampering"
     },
     {
-        "Arrest": 120,
+        "Arrest": 1,
         "Name": "Jury Tampering"
     },
     {
@@ -1138,5 +1139,40 @@
         "Name": "Unlawful possession of a firearm",
         "Arrest": 30,
         "Hidden": true
+    },
+    {
+        "Name": "Violation of DMV Regulation",
+        "Arrest": 10,
+        "Fine": 1300
+    },
+    {
+        "Name": "Misappropriation of State Funds",
+        "Arrest": 1,
+        "Fine": 1
+    },
+    {
+        "Name": "Assassination of an Elected Official",
+        "Arrest": 65
+    },
+    {
+        "Name": "Hostage Taking of an Elected Official",
+        "Arrest": 50
+    },
+    {
+        "Name": "Discharging a firearm within the grounds of the Capitol",
+        "Arrest": 30
+    },
+    {
+        "Name": "Discharging of a destructive device within the grounds of the Capitol",
+        "Arrest": 60
+    },
+    {
+        "Name": "Discharge of a Firework on Protected Property",
+        "Arrest": 10,
+        "Fine": 3500
+    },
+    {
+        "Name": "Discharge of a Firework within City Limits",
+        "Fine": 1500
     }
 ]
