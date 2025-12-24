@@ -6,7 +6,7 @@
     },
     {
         "Name": "Bribery",
-        "Arrest": 50
+        "Arrest": 15
     },
     {
         "Name": "Obstruction of justice",
@@ -20,7 +20,7 @@
         "Points": 3,
         "Class": 2,
         "Name": "Felony evasion",
-        "Arrest": 20
+        "Arrest": 25
     },
     {
         "Class": 2,
@@ -96,7 +96,7 @@
     {
         "Class": 2,
         "Name": "Burglary",
-        "Arrest": 15
+        "Arrest": 20
     },
     {
         "Class": 2,
@@ -117,7 +117,7 @@
         "Fine": 2200,
         "Points": 2,
         "Name": "Reckless driving",
-        "Arrest": 10
+        "Arrest": 15
     },
     {
         "Fine": 2000,
@@ -439,7 +439,7 @@
         "Class": 0,
         "Name": "Noise pollution",
         "Fine": 1000,
-        "Arrest": 10
+        "Arrest": 15
     },
     {
         "Fine": 200,
@@ -708,7 +708,7 @@
         "Fine": 5000,
         "Class": 2,
         "Name": "Felony Reckless Driving",
-        "Arrest": 20
+        "Arrest": 25
     },
     {
         "Name": "Following too Closely",
@@ -801,7 +801,7 @@
         "Name": "Insurance Claims Misconduct"
     },
     {
-        "Arrest": 15,
+        "Arrest": 20,
         "Name": "Disorderly Conduct within Senate Chambers",
         "Fine": 5000
     },
@@ -861,11 +861,11 @@
         "Name": "Unlawful Operation of an Aircraft"
     },
     {
-        "Arrest": 80,
+        "Arrest": 120,
         "Name": "Sabotage of an Aircraft"
     },
     {
-        "Arrest": 120,
+        "Arrest": 240,
         "Name": "Use of Explosives to Destroy an Aircraft"
     },
     {
@@ -913,7 +913,7 @@
         "Fine": 2000
     },
     {
-        "Arrest": 10,
+        "Arrest": 20,
         "Name": "Unlawful Conduct in a Protected Building",
         "Fine": 500
     },
