@@ -1174,12 +1174,12 @@
     {
         "Name": "Discharge of a Firework within City Limits",
         "Fine": 1500
-    }
+    },
     {
         "Name": "Felony Reckless Operation of a Commercial Vehicle",
         "Arrest": 30,
         "Fine": 8000
-    }
+    },
     {
         "Name": "Reckless Operation of a Commercial Vehicle",
         "Arrest": 20,
