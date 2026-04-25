@@ -1186,6 +1186,22 @@
         "Fine": 4000
     },
     {
+        "Name": "Criminal Sale of Prohibited Goods in the First Degree",
+        "Arrest": 60
+    },
+    {
+        "Name": "Criminal Sale of Prohibited Goods in the Second Degree",
+        "Arrest": 50
+    },
+    {
+        "Name": "Criminal Sale of Prohibited Goods in the Third Degree",
+        "Arrest": 40
+    },
+    {
+        "Name": "Criminal Sale of a Controlled Good",
+        "Arrest": 60
+    },
+    {
         "Name": "ATM Robbery",
         "Arrest": 25
     }
